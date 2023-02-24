@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -14,12 +15,14 @@ const Header = () => {
                     <br />
                     Flip & Fix
                   </h1>
-                  <a
-                    href='#about'
+                  <Link
+                    to='about'
                     className='btn btn-custom btn-lg page-scroll'
+                    smooth={true}
+                    duration={1000}
                   >
                     Learn More
-                  </a>{" "}
+                  </Link>{" "}
                 </div>
               </div>
             </div>

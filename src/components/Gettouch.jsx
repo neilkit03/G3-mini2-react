@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Gettouch = () => {
   return (
@@ -14,9 +15,14 @@ const Gettouch = () => {
               </p>
             </div>
             <div className='col-xs-12 col-md-4 text-center'>
-              <a href='#contact' className='btn btn-custom btn-lg page-scroll'>
+              <Link
+                to='contact'
+                className='btn btn-custom btn-lg page-scroll'
+                smooth={true}
+                duration={1000}
+              >
                 Free Estimate
-              </a>
+              </Link>
             </div>
           </div>
         </div>
