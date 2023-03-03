@@ -16,18 +16,19 @@ const Navbar = () => {
               data-toggle='collapse'
               data-target='#bs-example-navbar-collapse-1'
             >
-              {" "}
               <span className='sr-only'>Toggle navigation</span>{" "}
               <span className='icon-bar'></span>{" "}
               <span className='icon-bar'></span>{" "}
               <span className='icon-bar'></span>{" "}
             </button>
+
             <a
               className='navbar-brand page-scroll'
               onClick={() => scroll.scrollToTop()}
             >
               Mod Livin' RTY
             </a>
+
             <div className='phone'>
               <span>Call Today</span>888-123-4321
             </div>
