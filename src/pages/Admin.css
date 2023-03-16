@@ -28,10 +28,13 @@ h2 {
   color: #cccccc;
 }
 
+<<<<<<< HEAD
 .page-scroll:hover {
   cursor: pointer;
 }
 
+=======
+>>>>>>> b96021b91933e7c31d2c0ad6826144d41b5f2b9c
 /* STRUCTURE */
 
 .wrapper {
