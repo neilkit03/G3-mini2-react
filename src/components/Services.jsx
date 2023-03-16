@@ -1,6 +1,11 @@
 import React from "react";
+import ServicesItems from "./ServicesItems";
 
-const services = () => {
+function services() {
+  const serviceTitle = "New Home Construction";
+  const serviceContent =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.";
+
   return (
     <>
       <div id='services'>
@@ -9,20 +14,7 @@ const services = () => {
             <h2>Our Services</h2>
           </div>
           <div className='row'>
-            <div className='col-md-4'>
-              <div className='service-media'>
-                {" "}
-                <img src='img/services/service-1.jpg' alt=' ' />{" "}
-              </div>
-              <div className='service-desc'>
-                <h3>New Home Construction</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam sedasd commodo nibh ante
-                  facilisis bibendum dolor feugiat at.
-                </p>
-              </div>
-            </div>
+            <ServicesItems Title={serviceTitle} Content={serviceContent} />
             <div className='col-md-4'>
               <div className='service-media'>
                 {" "}
@@ -101,6 +93,6 @@ const services = () => {
       </div>
     </>
   );
-};
+}
 
 export default services;
